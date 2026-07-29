@@ -1,0 +1,17 @@
+import canonicalLaneMathlib.AdmissibleClass
+import canonicalLaneMathlib.BridgeLemmas
+import canonicalLaneMathlib.GateLemmas
+import canonicalLaneMathlib.SpecialELemmaClosure
+import canonicalLaneMathlib.SpecialELemmaStatement
+import canonicalLaneMathlib.SpecialEOperators
+import canonicalLaneMathlib.PinStructure
+
+namespace HautevilleHouse
+namespace LowDimensionalTopologySpecialELemmaCanonicalLaneLean
+
+theorem constrained_special_e_closure_theorem (A : AdmissibleClass) :
+    ConstrainedSpecialEClosure A :=
+  constrained_special_e_endgame A
+
+end LowDimensionalTopologySpecialELemmaCanonicalLaneLean
+end HautevilleHouse
